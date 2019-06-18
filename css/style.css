@@ -106,7 +106,7 @@ section {
     grid-column-gap: 1em;
 }
 
-@media (max-wdith:767px){
+@media (max-wdith:767px) {
     .lists {
         grid-template-columns: 1fr 1fr;
     }
