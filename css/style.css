@@ -3,7 +3,7 @@
 * { box-sizing: border-box; }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
@@ -77,15 +77,15 @@ section {
 }
 
 /* HERO */
+
 .hero {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
     min-height: 50vh;
     color: white;
+    
 }
-
 
 .hero h2 {
     font-size: 6em;
@@ -97,6 +97,15 @@ section {
     max-width: 600px;
     margin: 1em auto;
 }
+
+
+.page-home .hero {
+    background-image: url(https://picsum.photos/id/152/3888/2592);
+    background-position: center top;
+    background-size: cover;
+}
+
+
 
 /* Lists */
 .lists {
