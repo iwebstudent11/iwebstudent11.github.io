@@ -2,20 +2,21 @@
 
 * { box-sizing: border-box; }
 
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
+    font-family: 'Mali', cursive;
 }
 
 a {
     text-decoration: none;
-    color: darkred;
+    color: purple;
 }
 
 
 /* HEADER */
 header {
-    background: black;
+    background: rgb(189, 98, 241);
     color: white;
     padding: 1em 2em;
 }
@@ -55,7 +56,7 @@ nav a {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid purple;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -105,8 +106,14 @@ section {
     background-size: cover;
 }
 
+.page-about .hero {
+    background-image: url(https://picsum.photos/id/575/2509/1673);
+    background-position: center
+}
 
-
+.page-blog .hero {
+    background-image: url(https://picsum.photos/id/360/1925/1280)
+}
 /* Lists */
 .lists {
     max-width: 1000px;
@@ -114,6 +121,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1em;
+    color: rgb(38, 0, 255)
 }
 
 @media (max-width:767px) {
