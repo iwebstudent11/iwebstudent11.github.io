@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    font-family: 'Mali', cursive;
+    font-family: 'Mali';
 }
 
 a {
@@ -77,6 +77,7 @@ section {
     padding: 3em 1em;
 }
 
+
 /* HERO */
 
 .hero {
@@ -112,8 +113,10 @@ section {
 }
 
 .page-blog .hero {
-    background-image: url(https://picsum.photos/id/360/1925/1280)
+    background-image: url(https://picsum.photos/id/360/1925/1280);
+    background-position: center top
 }
+
 /* Lists */
 .lists {
     max-width: 1000px;
@@ -123,6 +126,7 @@ section {
     grid-column-gap: 1em;
     color: rgb(38, 0, 255)
 }
+
 
 @media (max-width:767px) {
     .lists {
