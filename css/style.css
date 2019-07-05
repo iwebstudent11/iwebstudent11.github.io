@@ -15,16 +15,12 @@ a {
 
 
 /* HEADER */
-header {
+.page-home header { 
     background: rgb(189, 98, 241);
     color: white;
     padding: 1em 2em;
 }
 
-header .page-about{
-    background: rgb(47, 97, 235);
-    color: white;
-}
 
 header a {
     color: white;
@@ -34,6 +30,18 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+}
+
+.page-about header{
+    background: rgb(92, 129, 238);
+    color: white;
+    padding: 1em 2em
+}
+
+.page-blog header{
+    background: rgb(255, 189, 89);
+    color: white;
+    padding: 1em 2em;
 }
 
 /* SITE ID */
