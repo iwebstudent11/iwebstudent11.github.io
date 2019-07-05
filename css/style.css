@@ -32,13 +32,13 @@ header {
     align-items: center;
 }
 
-.page-about header{
+.page-about header {
     background: rgb(92, 129, 238);
     color: white;
     padding: 1em 2em
 }
 
-.page-blog header{
+.page-blog header {
     background: rgb(255, 189, 89);
     color: white;
     padding: 1em 2em;
