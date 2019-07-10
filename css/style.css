@@ -146,3 +146,13 @@ section {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* CUSTOM UI DESIGNS */
+
+.ui-designs {
+    text-align: center;
+}
+
+.ui-designs img {
+    max-width: 200px;
+}
