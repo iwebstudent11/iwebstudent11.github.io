@@ -156,3 +156,22 @@ section {
 .ui-designs img {
     max-width: 200px;
 }
+
+/* BLOG Archives */
+
+.blog-archives {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid rgb(255, 189, 89);
+    background: rgb(252, 199, 101);
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
+}
